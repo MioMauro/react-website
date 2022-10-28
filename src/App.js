@@ -3,6 +3,7 @@ import Navbar from './components/Navbar.jsx'
 import { Hero } from './components/Hero.jsx';
 import { Analytics } from './components/Analytics.jsx';
 import { NewsLetter } from './components/NewsLetter.jsx';
+import { Cards } from './components/Cards.jsx';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
 <Hero />
 <Analytics />
 <NewsLetter />
+<Cards />
     </div>
   );
 }
