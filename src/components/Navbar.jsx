@@ -9,7 +9,7 @@ const Navbar = () => {
     }
 return (
     <div className='text-white flex justify-between items-center h-24 max-w-[1240px] px-4 mx-auto'>
-    <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Tailwind</h1>
+    <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Tailwind/React</h1>
     
     <ul className='hidden md:flex'>
         <li className='p-4'>Home</li>
@@ -33,7 +33,6 @@ return (
         <li className='p-4'>Contact</li>
         </ul>
     </div>
-
     </div>
 )
 }
